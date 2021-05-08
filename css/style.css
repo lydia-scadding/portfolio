@@ -1,0 +1,14 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* Importing components */
+@import url("components/container.css");
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.img-author {
+  margin-bottom: 24px;
+}

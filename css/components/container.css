@@ -1,7 +1,22 @@
 .main-container {
   background: lightgray;
+  width: 750px;
+  margin: 0 auto;
+  padding: 88px 0px;
 }
 
-.author-container {
-  margin-top: 88px;
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 }

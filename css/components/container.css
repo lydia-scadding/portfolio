@@ -6,17 +6,17 @@
 }
 
 @media (max-width: 960px) {
-  .container {
+  .main-container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  .container {
+  .main-container {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  .container {
+  .main-container {
     width: 300px;
   }
 }

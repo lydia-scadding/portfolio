@@ -25,7 +25,11 @@ h3 {
 
 .img-author {
   margin-bottom: 24px;
-  border: 3px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 p {
@@ -35,12 +39,6 @@ p {
 p, a {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  padding: 8px;
 }
 
 .social-links {
@@ -54,6 +52,7 @@ a {
 
 .social-links a {
   display: block;
+  padding: 8px;
 }
 
 .project-card {

@@ -3,6 +3,10 @@
 /* Importing components */
 @import url("components/container.css");
 
+body {
+  background-color: #FBF9F1;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
@@ -29,4 +33,20 @@ p, a {
 
 .social-links a {
   display: block;
+}
+
+.project-card {
+  width: 100%;
+  margin: 64px 0;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 2px 40px 0 rgb(0 0 0 / 10%);
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-content {
+  padding: 24px;
 }

@@ -1,13 +1,12 @@
 .main-container {
-  background: lightgray;
-  width: 750px;
+  width: 700px;
   margin: 0 auto;
   padding: 88px 0px;
 }
 
 @media (max-width: 960px) {
   .main-container {
-    width: 700px;
+    width: 640px;
   }
 }
 @media (max-width: 720px) {

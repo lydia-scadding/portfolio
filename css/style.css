@@ -1,14 +1,20 @@
 /* Importing Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@800&family=Poppins:wght@400;600&family=Roboto:wght@300&display=swap');
-/* Importing components */
+/*@import url('https://fonts.googleapis.com/css2?family=Martel:wght@800&family=Poppins:wght@400;600&family=Roboto:wght@300&display=swap');
+*//* Importing components */
 @import url("components/container.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
 
 body {
   background-color: rgb(245, 245, 245);
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Martel', serif;
+h1, h2, h3, h4, p {
+  font-family: 'Raleway', san-serif;
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
 }
 
 h1 {
@@ -32,13 +38,33 @@ a {
   color: black;
 }
 
-p {
-  color: rgba(80, 80, 80, 1.0);
+p, a {
+  letter-spacing: 1px;
 }
 
-p, a {
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 1px;
+.background-white {
+  background-color: white;
+}
+
+.banner a:hover {
+  color: #126e82;
+}
+
+.banner p {
+  margin-bottom: 0;
+}
+
+.text-green {
+  color: #126e82;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner li {
+  display: inline;
+  margin-left: 8px;
 }
 
 .social-links {
@@ -57,15 +83,16 @@ p, a {
 
 .project-card {
   width: 100%;
-  margin: 64px 0;
+  margin-bottom: 64px;
   border-radius: 6px;
   background-color: white;
   box-shadow: 0 2px 40px 0 rgb(0 0 0 / 10%);
-  border: 3px solid grey;
+  /*border: 3px solid grey;*/
 }
 
 .project-card img {
   width: 100%;
+/*  border-bottom: 3px solid grey;*/
   border-bottom: 3px solid grey;
 }
 

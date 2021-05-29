@@ -30,7 +30,8 @@ h3 {
 }
 
 .img-author {
-  margin-bottom: 24px;
+  border-radius: 8px;
+  margin-left: 64px;
 }
 
 a {

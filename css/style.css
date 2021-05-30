@@ -38,7 +38,11 @@ h3 {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(40, 40, 40);
+}
+
+a:hover {
+  color: rgb(40, 40, 40);
 }
 
 p, a {
@@ -103,13 +107,11 @@ p, a {
   border-radius: 6px;
   background-color: white;
   box-shadow: 0 2px 40px 0 rgb(0 0 0 / 10%);
-  /*border: 3px solid grey;*/
 }
 
 .project-card img {
   width: 100%;
   border-radius: 6px 6px 0 0;
-/*  border-bottom: 3px solid grey;*/
   border-bottom: 3px solid grey;
 }
 

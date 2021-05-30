@@ -1,10 +1,9 @@
-/*.main-container {
-  width: 700px;
+.main-container {
   margin: 0 auto;
-  padding: 88px 0px;
+  width: 95%;
 }
 
-@media (max-width: 960px) {
+/*@media (max-width: 960px) {
   .main-container {
     width: 640px;
   }

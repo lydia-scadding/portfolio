@@ -108,6 +108,7 @@ p, a {
 
 .project-card img {
   width: 100%;
+  border-radius: 6px 6px 0 0;
 /*  border-bottom: 3px solid grey;*/
   border-bottom: 3px solid grey;
 }

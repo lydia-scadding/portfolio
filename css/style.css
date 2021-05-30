@@ -6,15 +6,15 @@
 
 body {
   background-color: rgb(245, 245, 245);
+  font-family: 'Raleway', san-serif;
+  color: rgb(40, 40, 40);
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Raleway', san-serif;
   font-weight: bold;
 }
 
 p {
-  font-family: 'Raleway', san-serif;
   font-weight: normal;
   font-size: 14px;
 }

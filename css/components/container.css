@@ -4,3 +4,24 @@
   padding-right: .5rem;
   padding-left: .5rem;
 }
+
+.author-container {
+  display: flex;
+  align-items: center;
+}
+
+.author-container img{
+  border-radius: 8px;
+  margin-left: 64px;
+}
+
+@media (max-width: 540px) {
+  .author-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .author-container img {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}

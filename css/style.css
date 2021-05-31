@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
 
 /* Importing components */
-@import url("components/container.css");
+@import url("components/containers.css");
 @import url("components/banner.css");
 @import url("components/card.css");
 @import url("components/navbar.css");

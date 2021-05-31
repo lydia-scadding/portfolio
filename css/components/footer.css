@@ -4,6 +4,7 @@
 
 .footer {
   background-color: #126e82;
+  color: rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center
 }
@@ -28,8 +29,5 @@
   margin: auto;
 }
 
-.footer {
-  color: rgba(0, 0, 0, 0.4);
-}
 
 

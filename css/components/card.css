@@ -19,3 +19,13 @@
 .project-content {
   font-size: 14px;
 }
+
+.hover-rise {
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+}
+
+.hover-rise:hover {
+  top: -6px;
+}

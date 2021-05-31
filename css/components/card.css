@@ -25,3 +25,15 @@
 .hover-rise:hover {
   top: -8px;
 }
+
+.project-link {
+  margin-left: 12px;
+}
+
+.project-link i {
+  color: rgba(42, 111, 130, 0.4);
+}
+
+.project-link i:hover {
+  color: rgb(42, 111, 130);
+}

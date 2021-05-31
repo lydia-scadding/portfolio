@@ -15,6 +15,10 @@
   margin-left: 64px;
 }
 
+#projects {
+  margin-top: 88px;
+}
+
 @media (max-width: 540px) {
   .author-container {
     flex-direction: column;

@@ -19,7 +19,7 @@
   margin-top: 88px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .author-container {
     flex-direction: column;
     text-align: center;

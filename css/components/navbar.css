@@ -1,0 +1,12 @@
+.navbar h2 {
+  margin-bottom: 0;
+}
+
+.nav-item a {
+  margin-left: 1.5em;
+  color: grey;
+}
+
+.nav-item a:hover {
+  color: #126e82;
+}

@@ -1,0 +1,38 @@
+.footer h4 span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+  background-color: #126e82;
+  display: flex;
+  align-items: center
+}
+
+.footer-links i {
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-links i:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-container {
+  width: 300px;
+  margin: auto;
+}
+
+.footer {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.img-author {
+  border-radius: 8px;
+  margin-left: 64px;
+}

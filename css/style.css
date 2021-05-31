@@ -1,8 +1,12 @@
 /* Importing Google fonts */
-/*@import url('https://fonts.googleapis.com/css2?family=Martel:wght@800&family=Poppins:wght@400;600&family=Roboto:wght@300&display=swap');
-*//* Importing components */
-@import url("components/container.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+/* Importing components */
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
 
 body {
   background-color: rgb(245, 245, 245);
@@ -31,10 +35,7 @@ h3 {
   font-size: 16px;
 }
 
-.img-author {
-  border-radius: 8px;
-  margin-left: 64px;
-}
+
 
 a {
   text-decoration: none;
@@ -49,42 +50,12 @@ p, a {
   letter-spacing: 1px;
 }
 
-.navbar h2 {
-  margin-bottom: 0;
-}
-
 .background-white {
   background-color: white;
 }
 
-.nav-item a {
-  margin-left: 1.5em;
-  color: grey;
-}
-
-.nav-item a:hover {
-  color: #126e82;
-}
-
-.banner p {
-  margin-bottom: 0;
-}
-
 .text-green {
   color: #126e82;
-}
-
-.banner {
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.banner ul {
-  margin-bottom: 0;
-}
-
-.banner li {
-  display: inline;
-  margin-left: 8px;
 }
 
 .social-links {
@@ -101,61 +72,13 @@ p, a {
   padding: 8px;
 }
 
-.project-card {
-  width: 100%;
-  margin-bottom: 88px;
-  border-radius: 6px;
-  background-color: white;
-  box-shadow: 0 2px 40px 0 rgb(0 0 0 / 10%);
-}
 
-.project-card img {
-  width: 100%;
-  border-radius: 6px 6px 0 0;
-  border-bottom: 3px solid grey;
-}
-
-.project-content {
-  padding: 24px;
-}
-
-.project-content {
-  font-size: 14px;
-}
 
 #about {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.footer {
-  background-color: #126e82;
-  display: flex;
-  align-items: center
-}
 
-.footer-links i {
-  font-size: 32px;
-  color: rgba(0, 0, 0, 0.4);
-}
-
-.footer-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.footer-links i:hover {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.footer-container {
-  width: 300px;
-  margin: auto;
-}
-
-.footer {
-  color: rgba(0, 0, 0, 0.4);
-}
 
 .hover-rise {
   position: relative;
@@ -167,6 +90,4 @@ p, a {
   top: -6px;
 }
 
-.footer h4 span {
-  color: rgba(0, 0, 0, 0.7);
-}
+

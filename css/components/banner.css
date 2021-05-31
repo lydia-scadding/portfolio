@@ -1,0 +1,16 @@
+.banner {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.banner p {
+  margin-bottom: 0;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner li {
+  display: inline;
+  margin-left: 8px;
+}

@@ -1,10 +1,11 @@
 .main-container {
   margin: 0 auto;
   width: 95%;
+  padding-right: .5rem;
+  padding-left: .5rem;
 }
 
 /*@media (max-width: 960px) {
-  .main-container {
     width: 640px;
   }
 }

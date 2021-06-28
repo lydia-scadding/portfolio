@@ -16,6 +16,10 @@
   font-size: 14px;
 }
 
+.project-content p {
+  padding-bottom: 28px;
+}
+
 .hover-rise {
   position: relative;
   top: 0;
